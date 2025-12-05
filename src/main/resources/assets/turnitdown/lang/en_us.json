@@ -1,0 +1,6 @@
+{
+  "turnitdown.hud.label": "Player volume: ",
+  "turnitdown.hud.format": "%1$s%2$s",
+  "turnitdown.mod.name": "TurnItDown",
+  "turnitdown.mod.description": "Client mod to lower playback volume for custom discs"
+}

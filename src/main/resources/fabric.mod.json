@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "turnitdown",
+  "version": "${version}",
+  "name": "TurnItDown",
+  "description": "Client mod to lower the playback volume of discs from the CustomDiscs plugin",
+  "authors": ["K1zik"],
+  "contact": {"website": "k1zik.ru"},
+  "license": "MIT",
+  "icon": "assets/turnitdown/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.k1zik.turnitdown.client.TurnitdownClient"
+    ],
+    "main": [
+      "org.k1zik.turnitdown.Turnitdown"
+    ]
+  },
+  "mixins": [
+    "turnitdown.mixins.json",
+    {
+      "config": "turnitdown.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "voicechat": "*"
+  }
+}

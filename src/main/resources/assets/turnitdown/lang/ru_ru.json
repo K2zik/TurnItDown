@@ -1,0 +1,6 @@
+{
+  "turnitdown.hud.label": "Громкость проигрывателя: ",
+  "turnitdown.hud.format": "%1$s%2$s",
+  "turnitdown.mod.name": "TurnItDown",
+  "turnitdown.mod.description": "Клиентский мод для понижения громкости воспроизведения пластинок"
+}
