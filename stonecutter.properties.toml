@@ -1,0 +1,67 @@
+# See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
+# Aligns with Simple Voice Chat Fabric + CustomDiscs-SVC client ranges.
+# https://github.com/henkelmax/simple-voice-chat
+# https://github.com/BambooOrg/CustomDiscs-SVC
+mod.id = "turnitdown"
+mod.name = "TurnItDown"
+mod.group = "org.K1zik"
+mod.version = "1.1"
+
+deps.fabric_loader = "0.16.14"
+loomx.loom_version = "1.17-SNAPSHOT"
+
+["1.20.1"]
+mod.mc_compat = ">=1.20 <=1.20.1"
+mod.mc_releases = ["1.20", "1.20.1"]
+mod.java = ">=17"
+deps.fabric_loader = "0.16.14"
+deps.fabric_api = "0.92.12+1.20.1"
+deps.voicechat = "fabric-1.20.1-2.6.24"
+
+["1.21.1"]
+mod.mc_compat = ">=1.21 <=1.21.1"
+mod.mc_releases = ["1.21", "1.21.1"]
+mod.java = ">=21"
+deps.fabric_loader = "0.16.14"
+deps.fabric_api = "0.116.17+1.21.1"
+deps.voicechat = "fabric-1.21.1-2.6.24"
+
+["1.21.8"]
+mod.mc_compat = "~1.21.8"
+mod.mc_releases = ["1.21.8"]
+mod.java = ">=21"
+deps.fabric_loader = "0.16.14"
+deps.fabric_api = "0.136.1+1.21.8"
+deps.voicechat = "fabric-1.21.8-2.6.24"
+
+["1.21.11"]
+mod.mc_compat = "~1.21.11"
+mod.mc_releases = ["1.21.11"]
+mod.java = ">=21"
+deps.fabric_loader = "0.16.14"
+deps.fabric_api = "0.141.6+1.21.11"
+deps.voicechat = "fabric-1.21.11-2.6.24"
+
+["26.1.x"]
+mod.mc_compat = "~26.1"
+mod.mc_releases = ["26.1", "26.1.1", "26.1.2"]
+mod.java = ">=25"
+deps.fabric_loader = "0.19.5"
+deps.fabric_api = "0.155.3+26.1.2"
+deps.voicechat = "fabric-2.6.24+26.1.2"
+
+["26.2.x"]
+mod.mc_compat = "~26.2"
+mod.mc_releases = ["26.2"]
+mod.java = ">=25"
+deps.fabric_loader = "0.19.5"
+deps.fabric_api = "0.161.0+26.2"
+deps.voicechat = "fabric-2.6.24+26.2"
+
+["26.3.x"]
+mod.mc_compat = "~26.3"
+mod.mc_releases = ["26.3"]
+mod.java = ">=25"
+deps.fabric_loader = "0.19.5"
+deps.fabric_api = "0.161.0+26.3"
+deps.voicechat = "fabric-2.6.24+26.3"

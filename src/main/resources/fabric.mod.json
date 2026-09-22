@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "turnitdown",
+  "id": "${id}",
   "version": "${version}",
-  "name": "TurnItDown",
+  "name": "${name}",
   "description": "Client mod to lower the playback volume of discs from the CustomDiscs plugin",
   "authors": ["K1zik"],
   "contact": {"website": "k1zik.ru"},
@@ -26,8 +26,9 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft}",
+    "java": "${java}",
     "voicechat": "*"
   }
 }

@@ -1,48 +1,46 @@
-# Gradle
+# gradle
 .gradle/
 build/
 out/
-*.jar
-*.zip
+classes/
+versions/*/build/
+versions/*/.gradle/
 
-# IDE
+# eclipse
+*.launch
+
+# idea
 .idea/
-.vscode/
 *.iml
-*.iws
 *.ipr
-*.swp
-*.swo
-*~
-.DS_Store
+*.iws
 
-# Runtime
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+*.DS_Store
+
+# fabric
 run/
-config/
-logs/
-
-# Fabric
 .loom-cache/
 remappedSrc/
 .mixin.env
 
-# Environment
-*.class
-*.log
-*.ctxt
-.mtj.tmp/
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# java
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
 
-# Project specific
+# stonecutter
+.stonecutter/
+
+# runtime
+config/
+logs/
 turnitdown.json
-*.properties
-
-# OS
-Thumbs.db
-.DS_Store
